@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="../vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+        <!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,300italic' rel='stylesheet' type='text/css'> -->
+        <title>X Computer</title>
+    
+    </head>
+    
+    <body>
+        <header>
+            <div class="logo">
+               <img src="../resources/img/logo.PNG" alt="logo" class="main-logo">
+           </div>
+          <div class="admin-welcome">
+              <p>Hello Admin</p>
+              <a href="#">Logout</a>
+          </div>
+          <div class="clearfix"></div>                             <!--for clearing float-->
+            <ul>
+              <li><a class="homeButton" href="#home">Admin Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropbtn">Change Password</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropbtn">Add Product</a>
+              </li>
+               <li class="dropdown">
+                <a href="#" class="dropbtn">Product List</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropbtn">Visit Website</a>
+              </li>
+            </ul>   
+        </header>
+        
+        <div class="row main-body">
+            <section class="col span-1-of-5 sidebar">
+                <table>
+                  <tr>
+                    <th>Website Options</th>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Title</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Links</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Copyright</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">About Us</a></td>
+                  </tr>
+                    <tr>
+                    <td><a href="#">Email</a></td>
+                  </tr>
+                    <tr>
+                    <td><a href="#">Telephone</a></td>
+                  </tr>
+                    <tr>
+                    <td><a href="#">Add Branch</a></td>
+                  </tr>
+                    <tr>
+                    <td><a href="#">Branch List</a></td>
+                  </tr>
+                    <tr>
+                    <td><a href="#">Add Slider</a></td>
+                  </tr>
+                    <tr>
+                    <td><a href="#">Slider List</a></td>
+                  </tr>
+                    <tr>
+                    <td><a href="#">Add Catagory</a></td>
+                  </tr>
+                    <tr>
+                    <td><a href="#">Catagory List</a></td>
+                  </tr>
+                </table>
+             </section>
+            <section class="col span-3-of-5 content-body">
+                <div class="row">
+                <form method="post" action="#" class="content-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email address" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends">Friends</option>
+                                <option value="search">Search Engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="news">Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="message">Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" id="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send It!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+       </section>
+    </div>
+        
+    </body>
+    
+</html>
